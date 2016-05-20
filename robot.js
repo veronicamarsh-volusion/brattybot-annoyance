@@ -7,7 +7,7 @@ debug: false
 //connect the bot to a stream of messages
 
 controller.spawn({
-token: ''
+token: 'SLACK_TOKEN'
 }).startRTM()
 
 
