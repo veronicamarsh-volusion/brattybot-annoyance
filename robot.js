@@ -196,6 +196,6 @@ controller.hears(["tantrum"], 'direct_message,direct_mention', function(bot, mes
 // Help with natural language and commands bolded
 
 controller.hears(["help"], 'direct_message,direct_mention', function(bot, message) {
-	bot.reply(message, "Why do _you_ need *help*?! I don't want you to tell me that it's *naptime* or send me to a *timeout*. If you want, we can play a game; I like *play 1* the best, but *play 2* is fun too! I promise I will try my best not to throw a *tantrum* though!")
+	bot.reply(message, "Why do _you_ need *help*?! I don't want you to tell me that it's *naptime* or send me to a *timeout*. If you want, we can play a game; I like *play 1* the best, but *play 2* is fun too! I promise I will try my best not to throw a *tantrum*!")
 })
 
