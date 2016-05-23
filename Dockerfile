@@ -10,4 +10,4 @@ COPY robot.js /usr/src/app/
 COPY package.json /usr/src/app/ 
 
 #set startup commands
-CMD ["node", "robot"]
+CMD ["npm", "start"]
